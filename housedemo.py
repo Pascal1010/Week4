@@ -20,6 +20,7 @@ arcade.draw_circle_filled(620, 200, 5, arcade.color.GOLD)
 # Code for window
 arcade.draw_xywh_rectangle_filled(390, 270, 70, 70, arcade.color.GRAY_BLUE)
 arcade.draw_xywh_rectangle_outline(390, 270, 70, 70, arcade.color.BLACK)
-# window panels
+# sun
+arcade.draw_circle_filled(50, 700, 100, arcade.color.GOLD)
 arcade.finish_render()
 arcade.run()
